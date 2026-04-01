@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;
 
-
+namespace Lab8.White
+{
     public class Task2
     {
         public class Participant
@@ -126,5 +127,5 @@ using System.Collections.Generic;
                 Console.WriteLine($"{_name} {_surname} | Прыжки: {_firstJump}, {_secondJump} | Лучший: {BestJump} | Норматив пройден: {(IsPassed ? "Да" : "Нет")}");
             }
         }
-    }
-
+        }
+}            
